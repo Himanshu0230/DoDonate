@@ -8,6 +8,7 @@ import UserHospitals from "./components/Main/UserHospitals";
 import Help from "./components/Main/Help";
 import Footer from "./Footer/Footer";
 import SimpleForm from "./Bot/SimpleForm";
+import Donors from "./components/Donors/Donors";
 
 const Routeuser = () => {
   return (
@@ -33,6 +34,9 @@ const Routeuser = () => {
         </Route>
         <Route path="/help" exact>
           <Help />
+        </Route>
+        <Route path="/donors" exact>
+          <Donors />
         </Route>
 
         <Route path="/*">
